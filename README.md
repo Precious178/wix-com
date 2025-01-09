@@ -1,3 +1,11 @@
+<div align="center">
+  <img src="webpage-image.png" alt="Wix-Com Website Preview" width="100%">
+  
+  ### [🔗 View Live Website](https://precious178.github.io/wix-com/)
+</div>
+
+---
+
 # Wix-Com Project
 
 A responsive website project showcasing various features and responsive design principles.
