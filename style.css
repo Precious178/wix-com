@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
 	margin: 0;
 	padding: 0;
@@ -322,7 +324,7 @@ p {
 	color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .model2 {
         padding: 0 50px;
     }
@@ -341,14 +343,16 @@ p {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .front ul li {
+        float: none !important;
+        display: block !important;
         font-size: 16px;
         padding: 0 10px;
     }
     
     .model, .model2 {
-        flex-direction: column;
+        flex-direction: column !important;
         text-align: center;
         padding: 0 15px;
     }
@@ -359,8 +363,8 @@ p {
     }
     
     .flex, .flexup {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column !important;
+        align-items: center !important;
     }
     
     .flex p, .flexup p {
@@ -378,7 +382,7 @@ p {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .front {
         padding: 10px;
     }
